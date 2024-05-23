@@ -16,6 +16,7 @@ namespace Emp_Management.Controllers
 
         public EmployeesController(EmployeeDB context)
         {
+            //_context = context;
             _context = context;
         }
 
