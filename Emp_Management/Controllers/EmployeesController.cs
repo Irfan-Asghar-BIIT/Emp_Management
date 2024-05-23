@@ -63,6 +63,9 @@ namespace Emp_Management.Controllers
                 return RedirectToAction(nameof(Index));
             }
             return View(employee);
+
+
+
         }
 
         // GET: Employees/Edit/5
